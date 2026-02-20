@@ -7,8 +7,6 @@ services:
     container_name: laravel
     ports:
       - "80:9000"
-    volumes:
-      - ./laravel:/var/www/html
     networks:
       - network
 
